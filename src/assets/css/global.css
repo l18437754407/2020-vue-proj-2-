@@ -6,3 +6,19 @@ body,
     margin: 0;
     padding: 0;
 }
+
+/* 面包屑导航下边距 */
+.el-breadcrumb{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+/* 卡片视图阴影效果 */
+.el-card{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
