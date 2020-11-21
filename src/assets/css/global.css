@@ -5,6 +5,7 @@ body,
     height: 100%;
     margin: 0;
     padding: 0;
+    min-width: 1366px;
 }
 
 /* 面包屑导航下边距 */
@@ -17,6 +18,7 @@ body,
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
 }
 
+/* 设置用户列表上边距和字体大小 */
 .el-table{
     margin-top: 15px;
     font-size: 12px;

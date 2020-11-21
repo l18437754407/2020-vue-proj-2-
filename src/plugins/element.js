@@ -23,7 +23,11 @@ import { Button,
     Tooltip,
     Pagination,
     Dialog,
-    MessageBox
+    MessageBox,
+    Tag,
+    Tree,
+    Select,
+    Option
     } from 'element-ui'
 // 导入登录弹框提示组件
 // 添加规则                1.首字母大写   2.当标签为table-column这种形式，采用驼峰命名法  =>TableColumn
@@ -50,6 +54,10 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog) 
+Vue.use(Tag) 
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
 
